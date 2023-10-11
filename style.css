@@ -1,0 +1,220 @@
+*{scroll-behavior: smooth;}
+
+ /*
+color pallete:
+oxford blue: #0A122A
+asparagus: #698F3F   rgb(105, 143, 63)
+seasalt: #FBFAF8    rgb(251, 250, 248)
+bone: #E7DECD
+bole: #804E49
+
+ */
+
+@font-face {
+    font-family: Andika;
+    src: url(Andika/Andika-Regular.ttf);
+}
+
+@font-face {
+    font-family: Andika;
+    src: url(Andika/Andika-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Andika;
+    src: url(Andika/Andika-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+    font-family: Andika;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: 	#FBFAF8 ;
+
+    position: relative;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#paper {
+    background-color: #E7DECD;
+
+    margin-top: 40%;
+    padding-top: 0px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+#nathan_pic{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    height: 300px;
+    width: 300px;
+
+    border-radius: 150px;
+}
+
+#title {
+
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    transform: translate(-50%);
+
+    color: #aa6f73;
+    font-size: 70px;
+    font-weight: bold;
+
+    border-radius: 25px;
+
+}
+
+#menubar {
+    border-radius: 10px;
+    position: sticky;
+
+    display: table;
+    margin: 0 auto;
+
+    
+
+    top: 10px;
+    
+    background-color:#698F3F;
+    padding: 5px;
+}
+
+.line {
+    user-select: none;
+    color: #66545e;
+}
+
+.shortcuts {
+    text-decoration: none;
+
+    color: 	#FBFAF8;
+    
+    margin-left: 5px;
+    display: inline;
+    float: left;
+    user-select: none;
+
+    text-align: center;
+    padding: 3px;
+
+
+}
+
+.shortcuts:hover {
+    color: 	white;
+    background-color:#7da751;
+    border-radius: 10px;
+}
+
+h1 {
+    color:#66545e;
+}
+
+p {
+    color:#66545e;
+}
+
+.project_logos {
+    height: 200px;
+    float: left;
+}
+
+.project_desc {
+    
+    color: #FBFAF8;
+}
+
+#cssc {
+    display: inline-block;
+
+    background-color: #935D8C;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    margin-bottom: 25px;
+
+    padding: 20px;
+}
+
+#bundleup {
+    display: inline-block;
+
+    background-color: #776B9C;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin-bottom: 25px;
+
+    padding: 20px;
+}
+
+#redhawks {
+    display: inline-block;
+
+    background-color: #CE1B21;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding: 20px;
+}
+
+.project_links {
+    color: #FBFAF8;
+}
+
+#resume_link {
+    color:#66545e;
+}
+
+#the_gallery {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 300px;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+#credits {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
